@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(9, 9, 32);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  font-size: 1.05rem;
+  color: rgb(144, 144, 245);
+}
+
+.left {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: White;
+  padding: 20px 570px;
+}
+.Contactsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 150px;
+  background-color: rgb(23, 11, 32);
+  width: 1000px;
+}
+.Contactsection>div{
+  justify-content: space-between;
+}
+
+.leftsection {
+  font-size: 1rem;
+  width: 400px;
+  margin-top: 20px;
+}
+.leftsection .hello {
+  font-size: 1.5rem;
+}
+.leftsection ul{
+  padding-inline-start: 30px;
+  list-style: none;
+}
+.leftsection ul li{
+  font-size:1rem;
+  justify-content: space-between;
+  margin: 5px;
+}
+.rightsection img {
+  width: 200px;
+  margin: 80px 0;
+}
+section table{
+  margin-top: 15px;
+}
+table tr td{
+  padding:5px;
+}
+
+.fa {
+  padding:15px;
+  font-size: 30px;
+  /* width: 55px; */
+  text-align: center;
+  text-decoration: none;
+  justify-content: space-between;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  /* opacity: 0.7; */
+  /* background-color: rgb(39, 12, 75); */
+  background-color: white;
+  color: black;
+  /* border-radius: 0px; */
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  /* background: #3B5998; */
+  color: white;
+}
+
+/* Linkdin */
+.fa-linkedin {
+  /* background: #104913; */
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  /* background: #55ACEE; */
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  /* background: #c9155a; */
+  color: white;
+}
+
+/*Github*/
+.fa-github {
+  /* background: #175091; */
+  color: white;
+}
