@@ -40,7 +40,8 @@ nav ul li a:hover {
 .left {
     font-size: 1.6rem;
 }
-.rigth ul li .search{
+
+.rigth ul li .search {
     border: 1px solid white;
     border-radius: 40px;
     width: 40px;
@@ -75,7 +76,7 @@ nav ul li a:hover {
     border-radius: 6px;
     font-size: 15px;
     cursor: pointer;
-    margin-top:25px;
+    margin-top: 25px;
 }
 
 .rightSection img {
@@ -126,16 +127,20 @@ footer {
     padding: 23px 133px;
     justify-content: space-between;
 }
-.footer .first{
-    font-size:1.5rem;
+
+.footer .first {
+    font-size: 1.5rem;
 }
+
 .footer ul {
     list-style: none;
 }
-.footerlink{
+
+.footerlink {
     text-decoration: none;
     color: white;
 }
+
 .footerlink:hover {
     font-size: 1.1rem;
 }
@@ -149,21 +154,24 @@ footer .footer-rights {
     color: gray;
     padding: 12px 0;
 }
+
 .subscribe_btn {
     padding: 5px;
     background-color: rgb(221, 25, 25);
-    color:white;
+    color: white;
     border: 2px solid white;
     border-radius: 8px;
     font-size: 15px;
     cursor: pointer;
     margin-top: 5px;
-} 
-.subscribe_btn:hover{
+}
+
+.subscribe_btn:hover {
     padding: 10px
 }
+
 .fa {
-    padding:2px;
+    padding: 2px;
     font-size: 30px;
     width: 50px;
     text-align: center;
